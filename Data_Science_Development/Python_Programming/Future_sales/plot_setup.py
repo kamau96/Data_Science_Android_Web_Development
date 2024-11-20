@@ -1,3 +1,7 @@
+'''
+This file is used to setup default parameters 
+for the matplotlib library.
+'''
 import matplotlib.pyplot as plt
 plt.style.use("seaborn-whitegrid")
 plt.rc(
