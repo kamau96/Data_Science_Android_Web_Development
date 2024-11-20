@@ -1,10 +1,9 @@
 import matplotlib.pyplot as plt
-import seaborn as sns
 plt.style.use("seaborn-whitegrid")
 plt.rc(
     "figure",
     autolayout=True,
-    figsize=(11, 4),
+    figsize=(11, 6),
     titlesize=18,
     titleweight='bold',
 )
