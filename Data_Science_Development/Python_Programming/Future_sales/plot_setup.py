@@ -15,4 +15,11 @@ plt.rc(
     titlesize=16,
     titlepad=10,
 )
+plot_params = dict(
+    color="0.75",
+    style=".-",
+    markeredgecolor="0.25",
+    markerfacecolor="0.25",
+    legend=False,
+)
 #%config InlineBackend.figure_format = 'retina'
